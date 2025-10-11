@@ -1,0 +1,17 @@
+/*root*/
+:root {
+    --c-background: #eff6ff;
+    --c-base-text: #2A4A5C;
+    --c-fb: #255A9B;
+    --c-in: #0076b6;
+    --c-blue: #3698FB;
+    --c-grey-1: #7B8A92;
+    --c-grey-2: #96A5B1;
+    --c-grey-3: #AFAFAF;
+    --c-grey-4: #EEEEEE;
+    --c-white: #FFFFFF;
+}
+
+.facebook {
+    background-color: var(--c-fb);
+}
