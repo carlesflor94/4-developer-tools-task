@@ -18,6 +18,10 @@ body {
     background-color: var(--c-background);
 }
 
+.iintoo-img picture {
+    display: flex;
+}
+
 .container {
     background-color: var(--c-white);
     align-items: center;
@@ -44,4 +48,21 @@ body {
 .title-1, .title-2, .subtitle-1, .subtitle-2 {
     color: var(--c-base-text);
 
+}
+
+
+/*element distrubution*/
+
+@media screen and (min-width: 1440px) {
+
+    main {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-area: "iintoo-img container";
+    }
+
+    
+    
 }
