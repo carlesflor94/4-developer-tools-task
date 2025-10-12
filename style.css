@@ -10,8 +10,38 @@
     --c-grey-3: #AFAFAF;
     --c-grey-4: #EEEEEE;
     --c-white: #FFFFFF;
+    --ff: 'barlow', sans-serif;
 }
+
+body {
+    font-family: var(--ff), sans-serif;
+    background-color: var(--c-background);
+}
+
+.container {
+    background-color: var(--c-white);
+    align-items: center;
+}
+
 
 .facebook {
     background-color: var(--c-fb);
+    color: var(--c-white);
+}
+
+.linkedin {
+    background-color: var(--c-in);
+    color: var(--c-white);
+}
+
+.create-account {
+    background-color: var(--c-blue);
+    color: var(--c-white);
+}
+
+/*text styles*/
+
+.title-1, .title-2, .subtitle-1, .subtitle-2 {
+    color: var(--c-base-text);
+
 }
