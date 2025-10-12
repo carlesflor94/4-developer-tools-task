@@ -16,12 +16,7 @@
 body {
     font-family: var(--ff), sans-serif;
     background-color: var(--c-background);
-    display: grid;
-    justify-content: center;
-}
-
-.iintoo-img picture {
-    display: flex;
+    
 }
 
 .container {
@@ -53,25 +48,10 @@ body {
 }
 
 
-/*element distrubution*/
+/*layout*/
 
-@media screen and (min-width: 1440px) {
-
-    main {
-        max-width: 100%;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-        grid-area: "iintoo-img container";
-    }
-
-    .iintoo-img {
-        grid-area: iintoo-img;
-    }
-
-    .container {
-        grid-area: container;
-        padding: 7.2rem 16.5rem;
-    }
-    
+.wrapper {
+    justify-content: center;
+    min-height: 100dvh;
 }
+    
