@@ -54,4 +54,19 @@ body {
     justify-content: center;
     min-height: 100dvh;
 }
+
+
+/*general styles*/
+
+.iintoo-img {
+    position: relative;
+}
+
+.iintoo-img::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+}
     
