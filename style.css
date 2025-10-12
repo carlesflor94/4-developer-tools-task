@@ -16,6 +16,8 @@
 body {
     font-family: var(--ff), sans-serif;
     background-color: var(--c-background);
+    display: grid;
+    justify-content: center;
 }
 
 .iintoo-img picture {
@@ -63,6 +65,13 @@ body {
         grid-area: "iintoo-img container";
     }
 
-    
+    .iintoo-img {
+        grid-area: iintoo-img;
+    }
+
+    .container {
+        grid-area: container;
+        padding: 7.2rem 16.5rem;
+    }
     
 }
