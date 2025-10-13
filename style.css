@@ -72,20 +72,26 @@ img {
 
 .container {
     max-width: 60em;
+
 }
 
 
 /*general styles*/
 
-.iintoo-img {
-    position: relative;
+.form-text {
+    padding: 4rem;
 }
 
-.iintoo-img::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    inset: 0;
+.form-text > * {
+    margin-top: 1.5rem;
 }
-    
+
+
+/*media query*/
+
+@media (max-width: 800px) {
+    .container {
+        text-align: center;
+        flex-direction: column;
+    }
+}
