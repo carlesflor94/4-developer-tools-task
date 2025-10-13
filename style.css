@@ -11,6 +11,9 @@
     --c-grey-4: #EEEEEE;
     --c-white: #FFFFFF;
     --ff: 'barlow', sans-serif;
+    --fs-body: 0.7rem;
+    --fs-subt: 0.9rem;
+    --fs-heading: 1.5rem;
 }
 
 body {
@@ -35,16 +38,28 @@ img {
 .facebook {
     background-color: var(--c-fb);
     color: var(--c-white);
+    background-image: url(img/facebook.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0.3rem;
+    border: none;
 }
 
 .linkedin {
     background-color: var(--c-in);
     color: var(--c-white);
+    background-image: url(img/linkedin.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0.3rem;
+    border: none;
 }
 
 .create-account {
     background-color: var(--c-blue);
     color: var(--c-white);
+    border-radius: 0.3rem;
+    border: none;
 }
 
 /*text styles*/
@@ -52,6 +67,26 @@ img {
 .title-1, .title-2, .subtitle-1, .subtitle-2 {
     color: var(--c-base-text);
 
+}
+
+.title-1, .title-2 {
+    font-size: var(--fs-heading);
+}
+
+.subtitle-1, .subtitle-2 {
+    font-size: var(--fs-subt);
+}
+
+.facebook, .linkedin, .email-phone, .checkbox-container, .checkbox-container-2 {
+    font-size: var(--fs-body);
+}
+
+.checkbox-container-2 {
+    color: var(--c-grey-3);
+}
+
+.create-account {
+    font-weight: bold;
 }
 
 
@@ -104,6 +139,15 @@ img {
 .img2 {
     width: 100%;
     height: auto;
+}
+
+.register {
+    gap: 2cap;
+}
+
+.facebook, .linkedin, .create-account {
+    padding: 0.5rem;
+    width: 13rem;
 }
 
 .email-phone {
