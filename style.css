@@ -24,6 +24,12 @@ body {
     align-items: center;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
 
 .facebook {
     background-color: var(--c-fb);
@@ -48,11 +54,24 @@ body {
 }
 
 
+/*elements general layout */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
 /*layout*/
 
 .wrapper {
+    
     justify-content: center;
-    min-height: 100dvh;
+    height: 100dvh;
+}
+
+.container {
+    max-width: 60em;
 }
 
 
