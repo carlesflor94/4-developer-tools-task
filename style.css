@@ -131,8 +131,10 @@ img {
     gap: 0.5cap;
 }
 
-.email-phone input {
-    border: 2px solid red;
+
+
+input[type=text]:focus {
+    border-color: var(--c-blue);
 }
 
 
