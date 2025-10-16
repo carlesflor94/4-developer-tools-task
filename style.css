@@ -31,7 +31,7 @@ body {
 img {
     display: block;
     max-width: 100%;
-    margin-inline: auto;
+
 }
 
 
@@ -141,11 +141,10 @@ input[type=text]:focus {
 .facebook {
     background-color: var(--c-fb);
     color: var(--c-white);
-    background-image: url(img/facebook.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
     border-radius: 0.3rem;
     border: none;
+    display: flex;
+    gap: 10px;
 }
 
 .linkedin {
