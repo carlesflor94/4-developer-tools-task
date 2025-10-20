@@ -35,6 +35,32 @@ img {
 }
 
 
+.email-phone input[type='text'] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-top: 1px;
+}
+
+.email, .phone {
+    padding: 5px;
+    margin-right: 10px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    height: 40px;
+    width: 100px;
+    
+}
+
+label {
+    color: grey;
+    margin-bottom: 2px;
+}
+
+
 
 
 
