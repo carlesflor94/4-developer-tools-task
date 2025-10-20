@@ -173,6 +173,30 @@ input[type=text]:focus {
 }
 
 
+.line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--c-grey-3);
+  width: 10rem;
+  margin: 0 auto;
+}
+
+.line::before,
+.line::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid var(--c-grey-3);
+}
+
+.register {
+    margin-bottom: 1rem;
+}
+
+.subtitle-2 {
+    padding: 0.5rem;
+}
+
 
 .email-phone {
     gap: 0.5cap;
@@ -182,29 +206,32 @@ input[type=text]:focus {
     border: none;
     outline: none;
     background-color: transparent;
-    border-top: 1px;
+    border-top: 0.5rem;
+    border-bottom: 0.5rem;
 }
 
 .email, .phone {
     padding: 5px;
     margin-right: 10px;
-    border: solid 1px black;
+    border: solid 1px var(--c-grey-4);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: left;
-    height: 40px;
-    width: 100px;
+    height: 2.2rem;
+    width: 13rem;
     
 }
 
 .email-phone label {
     color: grey;
-    margin-bottom: 2px;
+    margin-bottom: 0.5rem;
 }
 
 
-
+h2 {
+    margin-top: 1rem;
+}
 
 .create-account {
     background-color: var(--c-blue);
