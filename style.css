@@ -1,4 +1,12 @@
 /*root*/
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(barlow/Barlow-Regular.otf);
+}
+
+
+
 :root {
     --c-background: #eff6ff;
     --c-base-text: #2A4A5C;
@@ -10,7 +18,7 @@
     --c-grey-3: #AFAFAF;
     --c-grey-4: #EEEEEE;
     --c-white: #FFFFFF;
-    --ff: 'barlow', sans-serif;
+    --ff: 'Barlow', sans-serif;
     --fs-body: 0.7rem;
     --fs-subt: 0.9rem;
     --fs-heading: 1.5rem;
@@ -57,8 +65,13 @@ img {
     font-size: var(--fs-subt);
 }
 
+
 .facebook, .linkedin, .email-phone, .checkbox-container, .checkbox-container-2 {
     font-size: var(--fs-body);
+}
+
+.checkbox-container {
+    color: black;
 }
 
 .checkbox-container-2 {
@@ -185,7 +198,7 @@ input[type=text]:focus {
     
 }
 
-label {
+.email-phone label {
     color: grey;
     margin-bottom: 2px;
 }
