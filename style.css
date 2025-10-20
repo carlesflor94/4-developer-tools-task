@@ -211,7 +211,7 @@ input[type=text]:focus {
 }
 
 .title-2 {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 
 .subtitle-2 {
@@ -257,6 +257,12 @@ h2 {
 .radio-box {
     border: solid 1px var(--c-grey-3);
     background-color: var(--c-white);
+    padding: 0.4rem 0.4rem;
+    max-width: 100%;
+    line-height: 1.4;
+    font-size: 0.7rem;
+    width: 12rem;
+    border-radius: 0.3rem;
 }
 
 .create-account {
