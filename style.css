@@ -82,6 +82,10 @@ img {
     font-weight: bold;
 }
 
+a {
+    color: var(--c-blue);
+}
+
 
 /*elements general layout */
 
@@ -197,6 +201,10 @@ input[type=text]:focus {
   color: var(--c-grey-3);
   width: 10rem;
   margin: 0 auto;
+}
+
+.line p {
+    margin: 0 0.5rem;
 }
 
 .line::before,
