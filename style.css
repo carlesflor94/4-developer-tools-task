@@ -113,6 +113,12 @@ a {
     flex: 1;
 }
 
+.create-account,
+.checkbox-container,
+.checkbox-container-2 {
+  margin-top: 2rem;
+}
+
 
 
 
