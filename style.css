@@ -168,9 +168,7 @@ a {
 
 
 
-input[type=text]:focus {
-    border-color: var(--c-blue);
-}
+
 
 
 .facebook {
@@ -257,6 +255,12 @@ input[type=text]:focus {
 .email-phone label {
     color: grey;
     margin-bottom: 0.5rem;
+}
+
+
+.email:focus-within,
+.phone:focus-within {
+    border-left: 2px solid var(--c-blue);
 }
 
 
