@@ -1,0 +1,83 @@
+body {
+    font-size: 1.125rem;
+    color: #707070;
+    margin: 0;
+    background-color: pink;
+}
+
+
+/*text styles*/
+
+h1 {
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+
+    margin-top: 0;
+}
+
+
+/*layout*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 1em auto;
+    
+}
+
+
+.col-1 {
+    width: 20%;
+
+}
+
+.col-2 {
+    width: 45%;
+}
+
+.col-3 {
+    width: 70%;
+}
+
+
+.col-bg {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+}
+
+
+/*media querys*/
+
+@media (max-width: 580px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .col-1, .col-2, .col-3 {
+        width: 100%;
+    }
+}
+
