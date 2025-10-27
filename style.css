@@ -27,6 +27,8 @@
 body {
     font-family: var(--ff), sans-serif;
     background-color: var(--c-background);
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -92,25 +94,32 @@ a {
 .flex {
     display: flex;
     align-items: center;
+    justify-content: center;
+    
 }
 
 
 /*layout*/
 
-.wrapper {
-    
-    justify-content: center;
-    height: 100vh;
-}
+
 
 .container {
-    height: 90vh;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 980px;
+    min-width: 800px;
     align-items: stretch;
+    transform-origin: center;
 
 }
 
-.iintoo-img, .form-text {
-    flex: 1;
+
+
+.iintoo-img, 
+.form-text {
+    flex: 1 1 50%;
+    min-width: 0;
 }
 
 .create-account,
@@ -118,6 +127,12 @@ a {
 .checkbox-container-2 {
   margin-top: 2rem;
 }
+
+.checkbox-container,
+.register,
+.email-phone {
+    justify-content: flex-start;
+    }
 
 
 
@@ -313,24 +328,17 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*media query*/
 
-@media (max-width: 800px) {
-    .container {
-        text-align: center;
-        flex-direction: column;
-    }
+@media (max-width: 900px) {
+  .container {
+    transform: scale(0.9);
+  }
 }
+
+@media (max-width: 750px) {
+  .container {
+    transform: scale(0.5);
+  }
+}
+
