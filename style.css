@@ -177,8 +177,9 @@ a {
 
 
 
-.facebook {
-    background-color: var(--c-fb);
+.facebook,
+.linkedin {
+    
     color: var(--c-white);
     border-radius: 0.3rem;
     border: none;
@@ -187,14 +188,14 @@ a {
     align-items: center;
 }
 
+.facebook {
+    background-color: var(--c-fb);
+}
+
+
 .linkedin {
     background-color: var(--c-in);
-    color: var(--c-white);
-    border-radius: 0.3rem;
-    border: none;
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  
 }
 
 
