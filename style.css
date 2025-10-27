@@ -285,6 +285,23 @@ h2 {
 }
 
 
+.info {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+    border-radius: 50%;
+    border: 1px solid var(--c-grey-3);
+    color: var(--c-grey-3);
+    text-align: center;
+    
+    
+}
+
+
+
+
+
 
 
 
